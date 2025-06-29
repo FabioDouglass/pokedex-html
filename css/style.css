@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alumni Sans';
+    color: rgb(5, 44, 150);
+}
+
+body {
+    background: linear-gradient(to bottom, #ef0303, #e7e7e7);
+    min-height: 100vh;
+}
+
+main {
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.img-logo {
+    max-width: 400px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+main.personagem {
+    padding-top: 50px;
+}
+
+.ordem {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.personagem-box {
+    position: relative;
+    display: inline-block;
+}
+
+.img-fundo {
+    width: 250px;
+    border-radius: 12px;
+    display: block;
+}
+
+.img-personagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    z-index: 1;
+    transform: translate(37%, 0);
+}
+
+.input__search {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.nome {
+    font-size: 40px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10%;
+  left: 55%;
+  width: 65%;
+  transform: translate(-57%, 0);
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 50%;
+  padding: 3%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
