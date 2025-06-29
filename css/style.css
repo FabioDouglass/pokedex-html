@@ -60,7 +60,7 @@ main.personagem {
     width: 300px;             
     max-width: 80%;            
     min-width: 200px;          
-    padding: 10px;             
+    padding: 10px; 
     border-radius: 15px;
     font-size: 20px;
 }
